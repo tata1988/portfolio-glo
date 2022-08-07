@@ -1,0 +1,26 @@
+.header {
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__menu {
+        display: flex;
+        list-style: none;
+
+        &-item {
+            margin-left: 24px;
+        }
+
+        &-link {
+            text-decoration: none;
+            color: $main-color;
+
+            &_active {
+                font-weight: 700;
+            }
+        }
+    }
+
+
+}

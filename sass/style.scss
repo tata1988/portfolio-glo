@@ -7,11 +7,27 @@
     max-width: 870px;
     width: 100%;
     margin: 0 auto;
+
+    @media screen and (max-width:1024px) {
+        max-width: 760px;
+    }
+
+    @media screen and (max-width:790px) {
+        max-width: 576px;
+    }
+
+    @media screen and (max-width:600px) {
+        max-width: 90%;
+    }
 }
 
 .form-container {
     max-width: 435px;
     margin: 0 auto;
+
+    @media screen and (max-width:480px) {
+        max-width: 90%;
+    }
 }
 
 @import 'base/variables';

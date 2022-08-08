@@ -1,5 +1,17 @@
 .feedback {
+    position: relative;
     padding-bottom: 167px;
+
+    &__img {
+        position: absolute;
+        top: 20%;
+        right: 0;
+        width: 25%;
+
+        @media screen and (max-width:790px) {
+            display: none;
+        }
+    }
 
     &__title {
         margin-bottom: 16px;
@@ -27,8 +39,9 @@
         &-input {
             border: 3px solid #E0DEDC;
             border-radius: 4px;
-            width: 435px;
+            width: 100%;
             height: 56px;
+
         }
 
         &-textarea {

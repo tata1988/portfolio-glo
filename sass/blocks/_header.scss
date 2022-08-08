@@ -1,26 +1,78 @@
 .header {
+    margin-bottom: 78px;
+
     &__wrapper {
         display: flex;
-        justify-content: space-between;
+        align-items: center;
     }
 
-    &__menu {
-        display: flex;
-        list-style: none;
+    &__photo {
+        width: 212px;
+        height: 240px;
+        margin-right: 27px;
+    }
 
-        &-item {
-            margin-left: 24px;
+    &__content {
+        max-width: 510px;
+
+
+        &-title {
+            font-weight: 700;
+            font-size: 48px;
+            letter-spacing: -0.03em;
+            color: #211B12;
+            margin-bottom: 8px;
         }
 
-        &-link {
-            text-decoration: none;
-            color: $main-color;
+        &-descr {
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 135%;
+            letter-spacing: -0.02em;
+            margin-bottom: 24px;
 
-            &_active {
-                font-weight: 700;
+            &_color {
+                display: block;
+                color: $main-color;
             }
         }
+
+        &-links {
+            display: flex;
+
+        }
+
+    }
+}
+
+.social {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0 55px 0 0;
+    align-items: center;
+
+    &__item {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+.cv-download {
+
+    padding: 7px 8px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    border-bottom: 2px solid $main-color;
+
+    &__icon {
+        margin-right: 10px;
     }
 
-
+    &__text {
+        font-weight: 700;
+        line-height: 150%;
+        color: #211B12;
+    }
 }

@@ -1,0 +1,29 @@
+.nav {
+    padding: 40px 0 70px 0;
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__menu {
+        display: flex;
+        list-style: none;
+        padding: 0;
+
+        &-item {
+            margin-left: 24px;
+        }
+
+        &-link {
+            text-decoration: none;
+            color: $main-color;
+
+            &_active {
+                font-weight: 700;
+            }
+        }
+    }
+
+
+}

@@ -1,0 +1,49 @@
+.feedback {
+    padding-bottom: 167px;
+
+    &__title {
+        margin-bottom: 16px;
+    }
+
+    &__form {
+        position: relative;
+
+        &-group {
+            position: relative;
+            padding-top: 7px;
+            margin-bottom: 24px;
+
+        }
+
+        &-label {
+            color: #83807C;
+            padding: 0 8px;
+            background-color: #ffffff;
+            position: absolute;
+            left: 16px;
+            top: 0;
+        }
+
+        &-input {
+            border: 3px solid #E0DEDC;
+            border-radius: 4px;
+            width: 435px;
+            height: 56px;
+        }
+
+        &-textarea {
+            min-height: 140px;
+            resize: none;
+        }
+
+        &-btn {
+            border: none;
+            background-color: #fff;
+            cursor: pointer;
+            border-bottom: 2px solid $main-color;
+            position: absolute;
+            right: 0;
+        }
+
+    }
+}

@@ -1,0 +1,87 @@
+.portfolio {
+
+
+    &__title {
+        font-weight: 700;
+        font-size: 48px;
+        margin-bottom: 32px;
+        color: $main-color;
+    }
+
+    &__wrapper {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+
+    &__card {
+        width: 399px;
+        margin-bottom: 40px;
+
+        &-img {
+            border-radius: 4px;
+            width: 100%;
+            margin-bottom: 16px;
+        }
+
+        &-inner {
+            margin: 0 15px;
+        }
+
+        &-title {
+            font-weight: 700;
+            font-size: 24px;
+            color: $main-color;
+            margin-bottom: 8px;
+        }
+
+
+
+        &-descr {
+            color: #211B12;
+            margin-bottom: 17px;
+        }
+
+        &-btns {
+            display: flex;
+        }
+
+        &-btn {
+            display: flex;
+            align-items: center;
+            padding: 7px 8px;
+            font-weight: 700;
+            color: #211B12;
+            border-bottom: 2px solid $main-color;
+            margin-right: 25px;
+        }
+
+        &-icon {
+            margin-right: 4px;
+        }
+
+
+    }
+
+}
+
+.tags {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+.tag {
+    padding: 4px 8px;
+    border: 1px solid $main-color;
+    border-radius: 4px;
+    margin-right: 4px;
+    margin-bottom: 16px;
+}
+
+.link {
+    font-size: 12px;
+    color: #211B12;
+}
